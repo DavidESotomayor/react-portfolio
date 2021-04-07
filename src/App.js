@@ -1,6 +1,6 @@
 import './App.css';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom'
@@ -14,7 +14,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         <Route path="/" exact component={About} />

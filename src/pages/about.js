@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div className="row">
             <div className="col-lg-8">
-                <img src="assets/images/IMG_7519.jpg" className="img-fluid rounded float-left img-personal-photo" alt="personal photo" />
+                <img src="./assets/images/IMG_7519.jpg" className="img-fluid rounded float-left img-personal-photo" alt="personal photo" />
                 <p>My name is David Sotomayor and I am a software developer looking to further hone my skills.  This website showcases some projects I am currently working on, as well as a way to get in touch with me for questions, comments, or concerns.</p>
                 <p>One thing I enjoy about programming is simply the flexibility and the power it has, and the impact it has on the world.  I'm glad to be a part of it.</p>
             </div>
