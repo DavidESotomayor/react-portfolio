@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://davidesotomayor.github.io/react-portfolio/static/css/main.70542e7d.chunk.css",
+    "main.js": "https://davidesotomayor.github.io/react-portfolio/static/js/main.dc2fdfba.chunk.js",
+    "main.js.map": "https://davidesotomayor.github.io/react-portfolio/static/js/main.dc2fdfba.chunk.js.map",
+    "runtime-main.js": "https://davidesotomayor.github.io/react-portfolio/static/js/runtime-main.49a925e7.js",
+    "runtime-main.js.map": "https://davidesotomayor.github.io/react-portfolio/static/js/runtime-main.49a925e7.js.map",
+    "static/js/2.fa42e611.chunk.js": "https://davidesotomayor.github.io/react-portfolio/static/js/2.fa42e611.chunk.js",
+    "static/js/2.fa42e611.chunk.js.map": "https://davidesotomayor.github.io/react-portfolio/static/js/2.fa42e611.chunk.js.map",
+    "static/js/3.ac7bfe98.chunk.js": "https://davidesotomayor.github.io/react-portfolio/static/js/3.ac7bfe98.chunk.js",
+    "static/js/3.ac7bfe98.chunk.js.map": "https://davidesotomayor.github.io/react-portfolio/static/js/3.ac7bfe98.chunk.js.map",
+    "index.html": "https://davidesotomayor.github.io/react-portfolio/index.html",
+    "static/css/main.70542e7d.chunk.css.map": "https://davidesotomayor.github.io/react-portfolio/static/css/main.70542e7d.chunk.css.map",
+    "static/js/2.fa42e611.chunk.js.LICENSE.txt": "https://davidesotomayor.github.io/react-portfolio/static/js/2.fa42e611.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49a925e7.js",
+    "static/js/2.fa42e611.chunk.js",
+    "static/css/main.70542e7d.chunk.css",
+    "static/js/main.dc2fdfba.chunk.js"
+  ]
+}
