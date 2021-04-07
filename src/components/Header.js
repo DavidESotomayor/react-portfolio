@@ -10,9 +10,9 @@ const Nav = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ml-auto">
-                    <Link to="/contact" className="nav-link navbar-brand-colors"  href="#">Contact</Link>
-                    <Link to="/projects" className="nav-link navbar-brand-colors"  href="#">Portfolio</Link>
-                    <Link to="/" className="nav-link navbar-brand-colors"  href="#">About</Link>
+                    <Link to="/contact" className="nav-link navbar-brand-colors"  href="/#">Contact</Link>
+                    <Link to="/projects" className="nav-link navbar-brand-colors"  href="/#">Portfolio</Link>
+                    <Link to="/" className="nav-link navbar-brand-colors"  href="/#">About</Link>
                 </div>
             </div>
         </nav>
