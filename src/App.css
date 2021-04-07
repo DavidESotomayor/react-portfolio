@@ -1,38 +1,139 @@
-.App {
+
+body {
+  background-color: #d2d2d2;
+}
+
+.navbar-colors {
+  background-color:#797777;
+}
+
+.navbar-brand-colors, .portfolioImgText {
+  color: #ffdab9 !important;
+}
+
+.navbar-toggler {
+  border-color: #ffdab9 !important;
+}
+
+.ds-container {
+  background-color: whitesmoke;
+  margin: 100px auto;
+}
+
+h2, p, .modal-title, #phoneNumber {
+  color: #797777;
+}
+
+h2 {
+  padding: 10px 0px 0px;
+}
+
+.img-personal-photo {
+  width: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.ul-styling {
+  margin: 5px, 10px;
+}
+
+span, .repositoryIcon, .mobileIcon, .resumeIcon, .buttonStyle {
+  color: #ffdab9;
+}
+
+.cardImgStyles {
+  height: 175px;
+}
+
+.portfolioImgTextSpace, #phoneNumber, .card-text {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.portfolioImgText {
+  padding: 2.5px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.portfolioImgText, .repositoryIcon, .mobileIcon, .resumeIcon {
+  background: #797777;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.portfolioImgText, .repositoryIcon {
+  text-decoration: none !important;
+}
+
+.portfolioImgText, .card-text {
+  font-size: 20px;
+}
+
+.repositorySection {
+  border-top: 1px solid #797777;
+  padding-top: 10px;
+}
+
+.repositoryIcon {
+  padding: 5px;
+}
+
+.contactSideBar {
+  justify-content: space-evenly;
   flex-direction: column;
+}
+
+.phoneSection, .resumeSection, .contactSideBar {
+  display: flex;
   align-items: center;
+}
+
+.mobileIcon, .resumeIcon {
+  margin-left: 15px;
+}
+
+.mobileIcon {
+  padding: 10px
+}
+
+.resumeIcon {
+  padding: 15px
+}
+
+.modal-header {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.buttonStyle {
+  background: #797777;
+  border-color: #5a5757;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.buttonStyle:hover {
+  background: #5a5757;
+  border-color: #5a5757;
+  color: #ffdab9;
+}
+
+.footerIcons {
+  margin: 0px 10px
+}
+
+@media screen and (max-width: 992px) {
+  .contactSideBar {
+      flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+  
+  form {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #797777;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .psh, .rsh {
+      font-size: 16px;
+  }
+
+  .mobileIcon, .resumeIcon {
+      margin: 2.5px
   }
 }
